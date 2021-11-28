@@ -1,0 +1,8 @@
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: account-mgmt-service
+#          uri: lb://account-mgmt-service
+#          predicates:
+#            - Path=/account/**
